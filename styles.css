@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: white;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.time {
+  background-color: rgba(255, 192, 203, 0.244);
+  border-radius: 8px;
+  padding: 20px 30px;
+}
+
+h3,
+h2 {
+  color: brown;
+}
+
+.time ul {
+}
+.time ul li {
+  margin-bottom: 10px;
+}
+
+.ingr,
+.inst {
+  border-bottom: 1px solid black;
+}
+
+.ingr ul li {
+  margin-bottom: 10px;
+}
+
+.inst ol li {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  font-weight: bold;
+  color: brown;
+}
+th,
+td {
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:last-child th,
+tr:last-child td {
+  border-bottom: none;
+}
